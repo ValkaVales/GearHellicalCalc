@@ -23,10 +23,11 @@ int main()
 #endif 
 
   // Sun
-#if 0
+#if 1
   double module = 1.5; // mm
   int teeth_count = 8;
-  double height = 13; // mm
+  //double height = 13; // mm
+  double height = 14; // mm
   double angle = 16; // degrees
 #endif 
 
@@ -78,7 +79,7 @@ int main()
 
   // Small DC motor gears v2
   // Outer
-#if 1
+#if 0
   double module = 0.7; // mm
   int teeth_count = 64;
   double height = 7.7;//20; // mm
